@@ -12,7 +12,7 @@ backend "s3" {
   region = "us-east-1"
   dynamodb_table = "lab-my-tf-lockid"
 }
-}
+
 
 # Configure the AWS provider
 provider "aws" {
